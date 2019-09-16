@@ -4,12 +4,12 @@ public class ConnectDB {
 //database connection variables
 	static Connection connection = null;
 	
-	static String databaseName ="projectdatabase";
+	static String databaseName ="myprojectdb";
 	
 	static String url = "jdbc:mysql://localhost:3306/"+databaseName; //URL with database name
 	
 	static String username = "root";//UserName of my database
-	static String password ="Saikiran@1729";//password of my database please don't tell to anyone :p
+	static String password ="vinushashi@123";//password of my database please don't tell to anyone :p
 	
 	public static void main(String[] args) throws InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException {
 	/*	Scanner sc = new Scanner(System.in);
