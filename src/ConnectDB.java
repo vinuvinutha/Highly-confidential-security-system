@@ -22,10 +22,10 @@ public class ConnectDB {
 		// TODO Auto-generated method stub
 		if(connection!=null)
 		{
-			System.out.println(" connected");
+			System.out.println("Connection has established successfully");
 		}
 		else {
-			System.out.println("not connected");
+			System.out.println("Connection has not established successfully");
 		}
 		connection.close();
 
